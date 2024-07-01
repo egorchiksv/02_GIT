@@ -1,0 +1,28 @@
+﻿Задача №1
+1         numbers = [-2, 8, 14, -34, -9, 7, 7, 4]
+2         size = 8
+3        count = 0
+4        index = 0
+5        while (index <  size) do
+6                if numbers[index] > 0 then
+7                        count = count +1
+8                index = index + 1
+9        print(count)
+
+
+
+
+Задача №2
+1        numbers = [2, 5, 13, 7, 6, 4]
+2        size = 6
+3        index = 0
+4        max_idx = 0
+5        max = numbers[max_idx]
+6        while index < size do
+7                if numbers[index] > max then
+8                        max_idx = index
+9                        max = numbers[index]
+10                index = index + 1
+11        numbers[max_idx] = numbers[size - 1]
+12        numbers[size - 1] = max
+13        print(numbers)
